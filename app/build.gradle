@@ -25,7 +25,7 @@ android {
     signingConfigs {
         signingConfig {
             if ("true" == IS_JENKINS){
-                storeFile file('/Users/andyyeh/Documents/keysotre/CITestKeySotre.jks')
+                storeFile file('/Users/andyyeh/Documents/keysotre/CITestKeySotre')
             }
             else {
                 storeFile file(STORE_FILE_PATH)
